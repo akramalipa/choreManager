@@ -1,0 +1,85 @@
+.App {
+  padding: 20px;
+  min-height: 100vh;
+  background-color: #282c34;
+  color: white;
+}
+
+
+
+.App-header {
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  
+}
+
+
+.layout {
+  display: grid;
+  
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+
+
+.login-container{
+  width: 50%;
+  margin: 0 25%;
+}
+
+.activate-Chore {
+  margin-top: 20px;
+  border-top: 2px solid purple;
+
+}
+
+.activate-Chore .faToggleOff {
+
+  font-size:30px;
+  
+  cursor: pointer;
+}
+
+.activate-Chore .faToggleOn {
+
+  font: size 30px;
+  cursor: pointer;
+}
+
+.chore-item {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  cursor: pointer;
+}
+
+.chore-item svg{
+  font-size: 1.2rem;
+  margin:26px 5px;
+  cursor: pointer;
+}
+
+.topRight {
+  position: absolute;
+  top: 20px;
+  right: 0px;
+  font-size: 1rem;
+}
+
+h1.fa-Film {
+  color: white;
+  transform: rotate(30);
+}
+
+.login-container{
+  width: 50%;
+  margin: 0 25%;
+  text-align: left;
+}
+
+.fa-sign-out-alt {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
